@@ -27,10 +27,10 @@ class Personaje:
         return self.Nivel
 
     def getTecnica(self):
-        cont=0
+        conta=0
         for x in self.Tecnicas:
-            cont=cont+1
-            print(str(cont) + " - " + str(x.getNombre()))
+            conta=conta+1
+            print(str(conta) + " - " + str(x.getNombre()))
     def getTecnica1(self, int):
         return self.Tecnicas[int]
 
@@ -43,9 +43,9 @@ class Personaje:
 
 
     def Datos_Personaje(self):
-        delay_print("\n---------------------------------------------------- \t"
+        delay_print("\n************************************************ \t"
                     "\nNombre  ==================================== " + self.Nombre+
-                    "\nNivel   ==================================== " + str(self.Nivel)+
+                    "\nNivel   ************************************ " + str(self.Nivel)+
                     "\nVida    ==================================== " + str(self.vida)
                     )
 
