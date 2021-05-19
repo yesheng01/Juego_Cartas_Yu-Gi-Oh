@@ -8,7 +8,7 @@ def delay_print(s):
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(0.03)
+        time.sleep(0.02)
 
 class Personaje:
     def __init__(self, nombre, vida, nivel):
